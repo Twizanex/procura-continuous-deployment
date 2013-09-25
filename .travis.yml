@@ -8,7 +8,8 @@ branches:
   only:
     - master
 
-matrix:   include:
+matrix:
+  include:
     - php: 5.3
       env: VARIA=true
       before_script:
