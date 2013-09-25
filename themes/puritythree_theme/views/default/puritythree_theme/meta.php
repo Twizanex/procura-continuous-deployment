@@ -1,0 +1,2 @@
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="<?php echo $vars['url']; ?>mod/puritythree_theme/jscolor/jscolor.js"></script>

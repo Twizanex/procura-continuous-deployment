@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- TODO: default target and project help" -->
+<project name="procura" default="build" basedir="." description="(projectdescription)">
+  
+  <property name="property.file" value="procura_alzheimer.properties" />
+  <!-- By default build procura alzheimer site, but let override on phing call via command line arguments -->
+  <property file="${property.file}" />
+
+  <property name="dirs.build.target" value="target" />
+  <property name="dirs.tmp" value="${dirs.build.target}/tmp" />
+  <property name="dirs.procura.mods" value="mod" />
+  <property name="dirs.procura.themes" value="themes" />
+  <property name="dirs.procura.files" value="files" />
+  <property name="dirs.procura.patches" value="patches" />
+  <property name="dirs.build.target.elgg" value="${dirs.build.target}/procura" />
+
+  <property name="elgg.uri" value="http://elgg.org/getelgg.php?forward=elgg-1.8.8.zip" />
+  <property name="elgg.vers" value="1.8.8" />
+  <property name="i18n_es.uri" value="http://community.elgg.org/plugins/download/1479861" />
+
+  <!-- in current version no core modules has been deleted -->
+  <property name="disabled_modules" value="" />
+  <property name="install_modules" value="elgg_social_login;http://community.elgg.org/plugins/download/848625;1.0.5, loginrequired;http://community.elgg.org/plugins/download/837228;1.8.2, profile_manager;http://community.elgg.org/plugins/download/853998;7.3" />
+
+  <target name="build" depends="install_elgg, apply_core_patches, lang_install_es, mod_disable_all, mod_install_all, custom_theme_install">
+		  <!-- TODO: apply patch files -->
+			<!-- copy new or overwritten files -->
+				<copy todir="${dirs.build.target.elgg}" overwrite="true">
+					 <fileset dir="${dirs.procura.files}">
+								<include name="**" />
+					 </fileset>
+		  </copy>
+  </target>
+
+  <target name="install_elgg" depends="create_modpath,create_target_dirs">
+		  <httpget url="${elgg.uri}" dir="${dirs.tmp}" followRedirects="true" filename="elgg.zip" />
+		  <unzip file="${dirs.tmp}/elgg.zip" todir="${dirs.tmp}/unzip" />
+		  <move file="${dirs.tmp}/elgg.zip" todir="${dirs.tmp}/done" />
+		  <exec command="mv ${dirs.tmp}/unzip/*elgg* ${dirs.build.target.elgg}" checkreturn="true" />
+  </target>
+
+	<target name="apply_core_patches">
+				<if>
+								<available file="${dirs.procura.patches}/core" type="dir" />
+					 <then>
+								<foreach param="filename" absparam="absfilename" target="apply_core_patch">
+												<fileset dir="${dirs.procura.patches}/core">
+																<include name="*.patch"/>
+												</fileset>
+								</foreach>
+					 </then>
+					 <else><echo>No patch files present</echo></else>
+		  </if>
+	</target>
+
+	<target name="apply_core_patch">
+				<!--
+				<patch patchfile="'${project.basedir}/${absfilename}'" dir="${dirs.build.target.elgg}" haltonfailure="true" />
+				<echo>patch abs ${absfilename} param ${filename} patch.file [${patch.file}]</echo>
+				<copy file="${absfilename}" todir="${dirs.build.target.elgg}" />
+				<php function="escapeshellcmd" returnProperty="patch.file">
+								<param value="${project.basedir}/${absfilename}" />
+				</php>
+				<copy file="${absfilename}" todir="${dirs.build.target.elgg}" />
+				-->
+				<echo>Warning!! this task seems to fail if there are spaces somewhere in your full path!!</echo>
+				<patch patchfile="${project.basedir}/${absfilename}" dir="${dirs.build.target.elgg}" strip="0" haltonfailure="true" />
+  </target>
+
+  <target name="mod_disable_all">
+		  <foreach list="${disabled_modules}" param="mod" target="mod_disable" delimiter="," />
+  </target>
+
+  <target name="mod_disable">
+		  <echo>Calling mod_disable with param [${mod}]</echo>
+		  <delete dir="${dirs.build.target.elgg}/mod/${mod}" />
+  </target>
+
+  <target name="mod_install_all">
+		  <foreach list="${install_modules}" param="mod" target="mod_install" delimiter="," />
+		  <!-- enable project specific modules -->
+		  <copy todir="${dirs.build.target.elgg}/mod" overwrite="true">
+					 <fileset dir="${dirs.procura.mods}">
+								<include name="**" />
+					 </fileset>
+		  </copy>
+  </target>
+
+  <target name="mod_install" depends="create_modpath">
+		  <echo>Calling mod_install with param [${mod}]</echo>
+		  <php expression="eval('list ($name,$uri,$vers) = explode (&quot;;&quot;,&quot;${mod}&quot;); return $name;');" returnProperty="mod_name" />
+		  <php expression="eval('list ($name,$uri,$vers) = explode (&quot;;&quot;,&quot;${mod}&quot;); return $uri;');" returnProperty="mod_uri" />
+		  <php expression="eval('list ($name,$uri,$vers) = explode (&quot;;&quot;,&quot;${mod}&quot;); return $vers;');" returnProperty="mod_vers" />
+		  <echo>Downloading [${mod_name}] vers [${mod_vers}] from [${mod_uri}]</echo>
+		  <httpget url="${mod_uri}" dir="${dirs.tmp}" filename="${mod_name}_${mod_vers}.zip" />
+		  <unzip file="${dirs.tmp}/${mod_name}_${mod_vers}.zip" todir="${dirs.build.target.elgg}/mod" />
+		  <move file="${dirs.tmp}/${mod_name}_${mod_vers}.zip" todir="${dirs.tmp}/done" />
+		  <!-- enable new modules on installation -->
+		  <phingcall target="enable_mod"><property name="mod_name" value="${mod_name}" /></phingcall>
+
+  </target>
+
+  <target name="custom_theme_install">
+		  <if>
+					 <isset property="custom_theme" />
+					 <then>
+								<copy todir="${dirs.build.target.elgg}/mod" overwrite="true" includeemptydirs="true">
+										  <fileset dir="${dirs.procura.themes}">
+													 <include name="${custom_theme}/**" />
+										  </fileset>
+								</copy>
+					 </then>
+					 <else><echo>No custom theme provided</echo></else>
+		  </if>
+  </target>
+
+  <target name="create_modpath">
+		  <phingcall target="mkdir_conditional"><property name="path" value="${dirs.tmp}" /></phingcall>
+		  <phingcall target="mkdir_conditional"><property name="path" value="${dirs.tmp}/unzip" /></phingcall>
+		  <phingcall target="mkdir_conditional"><property name="path" value="${dirs.tmp}/done" /></phingcall>
+  </target>
+
+  <target name="create_target_dirs">
+		  <phingcall target="mkdir_conditional"><property name="path" value="${dirs.build.target}" /></phingcall>
+  </target>
+
+
+  <target name="mkdir_conditional">
+		  <if>
+					 <not>
+								<available file="${path}" />
+					 </not>
+					 <then>
+								<mkdir dir="${path}" />
+					 </then>
+		  </if>
+  </target>
+
+  <target name="enable_mod">
+		  <echo>Set module ${mod_name} enabled for installation</echo>
+		  <!--dirs.mod.down.unzip-->
+		  <fileset dir="${dirs.build.target.elgg}/mod" id="manifest.id">
+					 <include name="${mod_name}/manifest.xml" />
+		  </fileset>
+		  <exec executable="grep" outputProperty="grepResult">
+					 <!-- tengo problemas con poner mayor que y menor que en el argumento, así que confío 
+					 en que simplemente si se encuentra "activate_on_install" esté la línea completa
+					 <arg line='-e "&lt;activate_on_install&gt;.*&lt;/activate_on_install&gt;" down_mod/unzip/loginrequired/manifest.xml' />-->
+					 <arg line='activate_on_install ${dirs.build.target.elgg}/mod/${mod_name}/manifest.xml' />
+		  </exec>
+		  <echo>La salida del grep es [${grepResult}]</echo>
+		  <if>
+					 <not><equals arg1="${grepResult}" arg2="" /></not>
+					 <then>
+								<echo>activate_on_install present, forcing to true</echo>
+								<property name="replacePattern" value="(&lt;activate_on_install&gt;)(\w+)(&lt;/activate_on_install&gt;)" />
+								<property name="replaceWith" value="\1true\3" />
+					 </then>
+					 <else>
+								<echo>activate_on_install not present, setting to true</echo>
+								<property name="replacePattern" value="(&lt;/plugin_manifest&gt;)" />
+								<property name="replaceWith" value="   &lt;activate_on_install&gt;true&lt;/activate_on_install&gt;${line.separator}\1" />
+					 </else>
+		  </if>
+
+		  <reflexive>
+					 <fileset refid="manifest.id" />
+					 <filterchain>
+								<replaceregexp>
+										  <!-- <regexp pattern="(&lt;activate_on_install&gt;)(\w+)(&lt;/activate_on_install&gt;)" replace="\1true\3"/>-->
+										  <regexp pattern="${replacePattern}" replace="${replaceWith}"/>
+								</replaceregexp>
+					 </filterchain>
+		  </reflexive>
+  </target>
+
+  <target name="lang_install_es">
+		  <echo>Installing ES langpack to ${dirs.build.target.elgg}</echo>
+		  <httpget url="${i18n_es.uri}" dir="${dirs.tmp}" filename="langpack_es_formal.zip"/>
+		  <fileset dir="${dirs.tmp}" id="zipfile.id">
+					 <include name="langpack_es_formal.zip"/>
+		  </fileset>
+		  <unzip todir="${dirs.build.target.elgg}">
+					<fileset refid="zipfile.id"/> 
+		  </unzip>
+		  <move todir="${dirs.tmp}/done">
+					<fileset refid="zipfile.id"/> 
+		  </move>
+		  <!-- remove __MACOSX dir and Spanish_Formal_Readme.txt -->
+		  <delete dir="${dirs.build.target.elgg}/__MACOSX" includeemptydirs="true" verbose="false" failonerror="false" />
+		  <delete dir="${dirs.build.target.elgg}/Spanish_Formal_Readme.txt" verbose="false" failonerror="false" />
+		  <!-- TODO: install 3rd party modules internationalization?? -->
+  </target>
+
+  <target name="clean">
+		  <delete dir="${dirs.tmp}" includeemptydirs="true" verbose="false" failonerror="false" />
+		  <delete dir="${dirs.build.target.elgg}" includeemptydirs="true" verbose="false" failonerror="false" />
+		  <delete dir="${dirs.build.target}" includeemptydirs="true" verbose="false" failonerror="false" />
+  </target>
+  <target name="test_enable_mod">
+		  
+		  <phingcall target="enable_mod"><property name="mod_name" value="loginrequired" /></phingcall>
+  </target>
+
+  <target name="test_fail">
+		  <fileset dir="${src}" includes="**/*.php">
+					 <contains text="PHP"/>
+		  </fileset>
+		  <exec executable="grep" outputProperty="grepResult">
+					 <!-- tengo problemas con poner mayor que y menor que en el argumento, así que confío 
+					 en que simplemente si se encuentra "activate_on_install" esté la línea completa
+					 <arg line='-e "&lt;activate_on_install&gt;.*&lt;/activate_on_install&gt;" down_mod/unzip/loginrequired/manifest.xml' />-->
+					 <arg line='activate_on_install ${dirs.tmp}/unzip/loginrequired/manifest.xml' />
+		  </exec>
+		  <echo>La salida del grep es [${grepResult}]</echo>
+		  <if>
+					 <not><equals arg1="${grepResult}" arg2="" /></not>
+					 <then><echo>no vacío</echo></then>
+					 <else><echo>vacío</echo></else>
+		  </if>
+		  <fail message="SUCCESS Found...failing"></fail>
+</target>
+
+</project>

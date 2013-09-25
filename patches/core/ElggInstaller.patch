@@ -1,0 +1,19 @@
+--- install/ElggInstaller.php	2013-09-18 13:27:57.045393795 +0200
++++ install/ElggInstallerProcura.php	2013-09-18 11:59:49.573197552 +0200
+@@ -1408,6 +1408,7 @@
+ 		$site->url = $submissionVars['wwwroot'];
+ 		$site->access_id = ACCESS_PUBLIC;
+ 		$site->email = $submissionVars['siteemail'];
++		$site->language = $submissionVars['language'];
+ 		$guid = $site->save();
+ 
+ 		if (!$guid) {
+@@ -1432,7 +1433,7 @@
+ 		datalist_set('processed_upgrades', serialize($upgrades));
+ 
+ 		set_config('view', 'default', $site->getGUID());
+-		set_config('language', 'en', $site->getGUID());
++		set_config('language', $site->language, $site->getGUID());
+ 		set_config('default_access', $submissionVars['siteaccess'], $site->getGUID());
+ 		set_config('allow_registration', TRUE, $site->getGUID());
+ 		set_config('walled_garden', FALSE, $site->getGUID());
