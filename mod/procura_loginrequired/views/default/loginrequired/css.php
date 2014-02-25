@@ -1,6 +1,7 @@
 <?php
 /**
- * Loginrequired Index CSS
+ * procura_loginrequired Index CSS
+ * The same as the original.
  *
  */
 ?>

@@ -6,15 +6,16 @@
 	 * @package LogInRequired
 	 * @license http://www.opensource.org/licenses/gpl-license.php
 	 * @author Khaled Afiouni
+         * @modified CGI Team for Procura
 	 * @copyright skinju.com 2010
 	 * @link http://skinju.com/
 	 * Upgraded to Elgg 1.8 by iionly in 2011
 	 */
 
 
-elgg_register_event_handler('init','system','loginrequired_init');
+elgg_register_event_handler('init','system','pr_loginrequired_init');
 
-function loginrequired_init()
+function pr_loginrequired_init()
 {
 
   global $CONFIG;
@@ -22,11 +23,11 @@ function loginrequired_init()
   // No need to do all the checking below if the user is already logged in... performance is key :)
   if (elgg_is_logged_in()) return;
 
-  elgg_extend_view('css/elgg', 'loginrequired/css');
+  elgg_extend_view('css/elgg', 'procura_loginrequired/css');
 
   elgg_unextend_view('page/elements/header', 'search/header');
 
-  elgg_register_plugin_hook_handler('index','system','loginrequired_index', 1);
+  elgg_register_plugin_hook_handler('index','system','pr_loginrequired_index', 1);
 
   elgg_register_plugin_hook_handler('login_required','login_required', 'login_required_default_allowed_list');
 
@@ -62,7 +63,7 @@ function loginrequired_init()
   $allow[] = 'cache/js/.*';
 
   // Allow other plugin developers to edit the array values
-  $add_allow = elgg_trigger_plugin_hook('login_required','login_required');
+  $add_allow = elgg_trigger_plugin_hook('pr_login_required','pr_login_required');
 
   // If more URL's are added... merge both with original list
   if (is_array($add_allow))
@@ -107,7 +108,7 @@ function login_required_default_allowed_list($hook, $type, $returnvalue, $params
   return $add;
 }
 
-function loginrequired_index($hook, $type, $returnvalue, $params) {
+function pr_loginrequired_index($hook, $type, $returnvalue, $params) {
         if ($return == true) {
                 // another hook has already replaced the front page
                 return $return;
