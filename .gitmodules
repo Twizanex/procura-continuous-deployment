@@ -1,0 +1,3 @@
+[submodule "themes/procuraHypeThemeX"]
+	path = themes/procuraHypeThemeX
+	url = git@github.com:javierLiarte/procuraHypeThemeX.git
