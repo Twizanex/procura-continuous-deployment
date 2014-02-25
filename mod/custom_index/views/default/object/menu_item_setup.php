@@ -7,11 +7,14 @@
  */
 
 $nombre = $vars['menu_item']['nombre'];
-$valor = $vars['menu_item']['valor'];
+$valor = $vars['menu_item']['valor'];//En la página de setup, el icono NO debe ser un enlace al módulo
 $indice = $vars['menu_item']['posicion'];
 $flotar = $vars['menu_item']['flotar'];
 $aux_arr = explode('_', $nombre);
 $icono = $aux_arr[1];
+if ($icono == null){
+    $icono = "indeterminado";
+}
 $alt = elgg_echo($nombre);
 $img_url = elgg_get_site_url() . "mod/custom_index/graphics/" . $icono . ".gif";
 

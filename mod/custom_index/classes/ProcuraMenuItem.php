@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Clase para definir los items del menú
+ * Clase para definir los permisos de los campos de perfil
  * 
  * @property string $item_name          nombre del item de menú
  * @property string $profile_asigned    nombre del perfil al que se relaciona el item

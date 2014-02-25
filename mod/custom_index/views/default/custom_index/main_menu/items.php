@@ -53,6 +53,7 @@ $lista_menu_items = $CONFIG->menus['site']; //devuelve la lista entera de opcion
 foreach ($lista_menu_items as $menu_items){
     
     $nombre = $menu_items->getData('name');
+//    $nombre = $menu_items->getText();
     $valor = $menu_items->getHref();
     $flotar = posicionar_boton_menu(0); //Innecesario
     $vars = array ('menu_item' => array ('nombre'=>$nombre, 'valor' => $valor, 'posicion' => $i,'flotar'=>$flotar));
