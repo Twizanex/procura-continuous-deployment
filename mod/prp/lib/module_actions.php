@@ -120,7 +120,7 @@ function prp_save_module_action($module_name, $action_name, $permissions) {
 function prp_check_module_action_permissions($module_name, $action_name, $vars) {
 
     // localizamos la accion
-    $module_action = prp_get_module_action_entity($action_name, $module_name);
+    $module_action = prp_get_module_action_entity($module_name,$action_name); //He cambiado el orden
     if ($module_action === null) {
         // accion no encontrada, no se verifican los permisos
         return false;
@@ -216,7 +216,7 @@ function prp_check_module_action_relation_permissions($module_action, $related_u
         foreach ($module_action->required_relations as $relation_name) {
             // comprobamos si existe la relacion
             $relation = check_entity_relationship($user_executing_action->guid, $relation_name, $related_user->guid);
-            if (is_a($relation, 'ElggRelationship')) {
+            if ($relation) {
                 // relacion encontrada, marcamos y abandonamos el bucle
                 $match_profile = true;
                 break;

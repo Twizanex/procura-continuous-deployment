@@ -73,7 +73,7 @@ function prp_get_relation_name($name) {
     $relation_name_list = prp_get_relation_names();
     // identificamos la relacion buscada
     foreach ($relation_name_list as $relation_name) {
-        if ($relation_name->name == $name) {
+        if ($relation_name->title == $name) { //ponia ->name
             return $relation_name;
         }
     }
@@ -236,6 +236,27 @@ function prp_get_user_relations($user) {
     // devolvemos las relaciones
     return $user_relations;
 }
+
+/**
+* Recupera los usuarios que tienen alguna relaciรณn con el usuario dado
+* @param type $user Usuario del que queremos recuperar los usuarios relacionados
+* @return Array con los usuarios que tienen relaciones
+*/
+function prp_get_related_users($user){
+// recuperamos la relaciones
+$user_relations = prp_get_user_relations($user);
+// acumulamos los usuarios, comprobando duplicados
+$related_users = array();
+foreach ($user_relations as $user_relation){
+    $related_user = $user_relation['related_user'];
+    if (!in_array($related_user, $related_users)){
+        array_push($related_users, $related_user);
+    }
+}
+// devolvemos los usuarios relacionados
+return $related_users;
+} 
+
 
 /**
  * Crea una relacion del tipo indicado entre dos usuairos

@@ -10,8 +10,12 @@ function prp_get_user_profile_type($user){
     $user_metadata = profile_manager_get_user_profile_data($user);
     $custom_profile_id = profile_manager_get_user_profile_data_value($user_metadata, "custom_profile_type");
     $custom_profile = get_entity($custom_profile_id);
-    return $custom_profile->metadata_name;    
-    
+    // Comprobamos si el usuario tiene perfil asignado
+    if ($custom_profile->metadata_name){
+        return $custom_profile->metadata_name;
+    } else {
+        return 'default';
+    }
 }
 
 /**
