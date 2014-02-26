@@ -80,11 +80,17 @@
   <target name="mod_install_all">
 		  <foreach list="${install_modules}" param="mod" target="mod_install" delimiter="," />
 		  <!-- enable project specific modules -->
+		  <echo>Copying project modules to elgg core installation</echo>
 		  <copy todir="${dirs.build.target.elgg}/mod" overwrite="true">
 					 <fileset dir="${dirs.procura.mods}">
 								<include name="**" />
 					 </fileset>
 		  </copy>
+		  <foreach param="mod_name" absparam="abs_mod" target="enable_mod">
+		  	<fileset dir="${dirs.procura.mods}">
+								<include name="*" />
+			</fileset>
+		  </foreach>
   </target>
 
   <target name="mod_install" depends="create_modpath">
