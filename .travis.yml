@@ -7,6 +7,7 @@ phps:
 branches:
   only:
     - master
+    - ACVSiteInstall
 
 #matrix:
 #  include:
