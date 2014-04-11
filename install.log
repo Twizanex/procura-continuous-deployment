@@ -1,0 +1,1673 @@
+PHP Notice:  Undefined index: REQUEST_METHOD in /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php on line 59
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->__construct() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:24
+PHP Notice:  Undefined index: SERVER_PORT in /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php on line 852
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->__construct() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:24
+PHP   3. ElggInstaller->bootstrapConfig() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:61
+PHP   4. ElggInstaller->getBaseUrl() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:830
+PHP Notice:  Undefined index: REQUEST_URI in /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php on line 856
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->__construct() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:24
+PHP   3. ElggInstaller->bootstrapConfig() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:61
+PHP   4. ElggInstaller->getBaseUrl() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:830
+PHP Notice:  Undefined index: SERVER_NAME in /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php on line 860
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->__construct() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:24
+PHP   3. ElggInstaller->bootstrapConfig() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:61
+PHP   4. ElggInstaller->getBaseUrl() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:830
+PHP Notice:  Undefined property: stdClass::$lastcache in /data/repos/procura-continuous-deployment/target/procura/engine/lib/cache.php on line 209
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->finishBootstraping() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:195
+PHP   4. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:815
+PHP   5. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   6. admin_init() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   7. elgg_get_simplecache_url() /data/repos/procura-continuous-deployment/target/procura/engine/lib/admin.php:249
+PHP Notice:  Undefined property: stdClass::$site_id in /data/repos/procura-continuous-deployment/target/procura/engine/lib/configuration.php on line 100
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->finishBootstraping() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:195
+PHP   4. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:815
+PHP   5. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   6. admin_init() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   7. elgg_get_simplecache_url() /data/repos/procura-continuous-deployment/target/procura/engine/lib/admin.php:249
+PHP   8. elgg_is_simplecache_enabled() /data/repos/procura-continuous-deployment/target/procura/engine/lib/cache.php:211
+PHP   9. elgg_get_config() /data/repos/procura-continuous-deployment/target/procura/engine/lib/cache.php:297
+PHP Notice:  Undefined property: stdClass::$site_id in /data/repos/procura-continuous-deployment/target/procura/engine/lib/configuration.php on line 493
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->finishBootstraping() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:195
+PHP   4. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:815
+PHP   5. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   6. admin_init() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   7. elgg_get_simplecache_url() /data/repos/procura-continuous-deployment/target/procura/engine/lib/admin.php:249
+PHP   8. elgg_is_simplecache_enabled() /data/repos/procura-continuous-deployment/target/procura/engine/lib/cache.php:211
+PHP   9. elgg_get_config() /data/repos/procura-continuous-deployment/target/procura/engine/lib/cache.php:297
+PHP  10. get_config() /data/repos/procura-continuous-deployment/target/procura/engine/lib/configuration.php:102
+PHP Notice:  Undefined property: stdClass::$site_id in /data/repos/procura-continuous-deployment/target/procura/engine/lib/configuration.php on line 100
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->finishBootstraping() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:195
+PHP   4. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:815
+PHP   5. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   6. elgg_profile_fields_setup() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   7. elgg_get_config() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:1374
+PHP Notice:  Undefined property: stdClass::$site_id in /data/repos/procura-continuous-deployment/target/procura/engine/lib/configuration.php on line 493
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->finishBootstraping() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:195
+PHP   4. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:815
+PHP   5. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   6. elgg_profile_fields_setup() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   7. elgg_get_config() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:1374
+PHP   8. get_config() /data/repos/procura-continuous-deployment/target/procura/engine/lib/configuration.php:102
+PHP Notice:  Undefined property: stdClass::$site_guid in /data/repos/procura-continuous-deployment/target/procura/engine/lib/entities.php on line 529
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggSite->save() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1412
+PHP   5. ElggEntity->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggSite.php:166
+PHP   6. create_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:1269
+PHP Notice:  Undefined property: stdClass::$site_id in /data/repos/procura-continuous-deployment/target/procura/engine/lib/configuration.php on line 493
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggSite->save() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1412
+PHP   5. ElggEntity->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggSite.php:166
+PHP   6. ElggData->__set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggSite.php:1279
+PHP   7. ElggEntity->set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggData.php:83
+PHP   8. ElggEntity->setMetaData() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:237
+PHP   9. elgg_delete_metadata() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:340
+PHP  10. elgg_batch_metastring_based_objects() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metadata.php:312
+PHP  11. ElggBatch->__construct() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metastrings.php:734
+PHP  12. ElggBatch->rewind() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metastrings.php:198
+PHP  13. ElggBatch->getNextResultsChunk() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggBatch.php:323
+PHP  14. elgg_get_metastring_based_objects() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggBatch.php:280
+PHP  15. get_config() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metastrings.php:270
+PHP Notice:  Undefined property: stdClass::$site_id in /data/repos/procura-continuous-deployment/target/procura/engine/lib/configuration.php on line 493
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggSite->save() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1412
+PHP   5. ElggEntity->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggSite.php:166
+PHP   6. ElggData->__set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggSite.php:1279
+PHP   7. ElggEntity->set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggData.php:83
+PHP   8. ElggEntity->setMetaData() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:237
+PHP   9. create_metadata() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:351
+PHP  10. elgg_get_metadata_from_id() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metadata.php:135
+PHP  11. elgg_get_metastring_based_object_from_id() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metadata.php:36
+PHP  12. elgg_get_metastring_based_objects() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metastrings.php:759
+PHP  13. get_config() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metastrings.php:270
+PHP Notice:  Undefined property: stdClass::$site_id in /data/repos/procura-continuous-deployment/target/procura/engine/lib/configuration.php on line 493
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggSite->save() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1412
+PHP   5. ElggEntity->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggSite.php:166
+PHP   6. ElggData->__set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggSite.php:1279
+PHP   7. ElggEntity->set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggData.php:83
+PHP   8. ElggEntity->setMetaData() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:237
+PHP   9. elgg_delete_metadata() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:340
+PHP  10. elgg_batch_metastring_based_objects() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metadata.php:312
+PHP  11. ElggBatch->__construct() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metastrings.php:734
+PHP  12. ElggBatch->rewind() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metastrings.php:198
+PHP  13. ElggBatch->getNextResultsChunk() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggBatch.php:323
+PHP  14. elgg_get_metastring_based_objects() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggBatch.php:280
+PHP  15. get_config() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metastrings.php:270
+PHP Notice:  Undefined property: stdClass::$site_id in /data/repos/procura-continuous-deployment/target/procura/engine/lib/configuration.php on line 493
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggSite->save() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1412
+PHP   5. ElggEntity->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggSite.php:166
+PHP   6. ElggData->__set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggSite.php:1279
+PHP   7. ElggEntity->set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggData.php:83
+PHP   8. ElggEntity->setMetaData() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:237
+PHP   9. create_metadata() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:351
+PHP  10. elgg_get_metadata_from_id() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metadata.php:135
+PHP  11. elgg_get_metastring_based_object_from_id() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metadata.php:36
+PHP  12. elgg_get_metastring_based_objects() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metastrings.php:759
+PHP  13. get_config() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metastrings.php:270
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. elgg_generate_plugin_entities() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1453
+PHP   6. ElggPlugin->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/plugins.php:153
+PHP   7. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:157
+PHP   8. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: __elgg_session in /data/repos/procura-continuous-deployment/target/procura/engine/lib/actions.php on line 337
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->includeFile() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:717
+PHP   7. include() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:825
+PHP   8. elgg_add_action_tokens_to_url() /data/repos/procura-continuous-deployment/target/procura/mod/tinymce/activate.php:11
+PHP   9. generate_action_token() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:1398
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->includeFile() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:717
+PHP   7. include() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:825
+PHP   8. elgg_add_admin_notice() /data/repos/procura-continuous-deployment/target/procura/mod/tinymce/activate.php:13
+PHP   9. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/admin.php:93
+PHP  10. ElggEntity->save() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:146
+PHP  11. ElggData->__set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:1279
+PHP  12. ElggEntity->set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggData.php:83
+PHP  13. ElggEntity->setMetaData() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:237
+PHP  14. create_metadata() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:351
+PHP  15. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metadata.php:136
+PHP  16. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  17. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  18. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  19. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  20. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  21. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->includeFile() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:717
+PHP   7. include() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:825
+PHP   8. elgg_add_admin_notice() /data/repos/procura-continuous-deployment/target/procura/mod/tinymce/activate.php:13
+PHP   9. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/admin.php:93
+PHP  10. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  15. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  16. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  17. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->saveSiteSettings() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:197
+PHP   4. ElggInstaller->enablePlugins() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1442
+PHP   5. ElggPlugin->activate() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1458
+PHP   6. ElggPlugin->setStatus() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:697
+PHP   7. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggPlugin.php:1013
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->createAdminAccount() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:201
+PHP   4. register_user() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1528
+PHP   5. ElggUser->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:967
+PHP   6. create_user_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggUser.php:158
+PHP   7. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:89
+PHP   8. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   9. user_create_hook_add_site_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. add_entity_relationship() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:1205
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/relationships.php:94
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  15. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  16. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  17. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->createAdminAccount() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:201
+PHP   4. register_user() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1528
+PHP   5. ElggUser->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:967
+PHP   6. create_user_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggUser.php:158
+PHP   7. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:89
+PHP   8. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   9. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  11. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->createAdminAccount() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:201
+PHP   4. register_user() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1528
+PHP   5. set_user_notification_setting() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:984
+PHP   6. ElggUser->__set() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:220
+PHP   7. ElggData->__set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggUser.php:570
+PHP   8. ElggEntity->set() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggData.php:83
+PHP   9. ElggEntity->setMetaData() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:237
+PHP  10. create_metadata() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggEntity.php:351
+PHP  11. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metadata.php:136
+PHP  12. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  13. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  15. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  16. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  17. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->createAdminAccount() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:201
+PHP   4. ElggUser->makeAdmin() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1542
+PHP   5. make_user_admin() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggUser.php:233
+PHP   6. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:226
+PHP   7. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   8. elgg_add_admin_widgets() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   9. elgg_create_widget() /data/repos/procura-continuous-deployment/target/procura/engine/lib/admin.php:635
+PHP  10. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/widgets.php:82
+PHP  11. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  16. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  17. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  18. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->createAdminAccount() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:201
+PHP   4. ElggUser->makeAdmin() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1542
+PHP   5. make_user_admin() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggUser.php:233
+PHP   6. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:226
+PHP   7. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   8. elgg_add_admin_widgets() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   9. elgg_create_widget() /data/repos/procura-continuous-deployment/target/procura/engine/lib/admin.php:635
+PHP  10. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/widgets.php:82
+PHP  11. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  16. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  17. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  18. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->createAdminAccount() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:201
+PHP   4. ElggUser->makeAdmin() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1542
+PHP   5. make_user_admin() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggUser.php:233
+PHP   6. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:226
+PHP   7. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   8. elgg_add_admin_widgets() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   9. elgg_create_widget() /data/repos/procura-continuous-deployment/target/procura/engine/lib/admin.php:635
+PHP  10. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/widgets.php:82
+PHP  11. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  16. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  17. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  18. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->createAdminAccount() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:201
+PHP   4. ElggUser->makeAdmin() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1542
+PHP   5. make_user_admin() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggUser.php:233
+PHP   6. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:226
+PHP   7. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   8. elgg_add_admin_widgets() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   9. elgg_create_widget() /data/repos/procura-continuous-deployment/target/procura/engine/lib/admin.php:635
+PHP  10. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/widgets.php:82
+PHP  11. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  16. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  17. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  18. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->createAdminAccount() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:201
+PHP   4. ElggUser->makeAdmin() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1542
+PHP   5. make_user_admin() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggUser.php:233
+PHP   6. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:226
+PHP   7. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   8. elgg_add_admin_widgets() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   9. elgg_create_widget() /data/repos/procura-continuous-deployment/target/procura/engine/lib/admin.php:635
+PHP  10. ElggObject->save() /data/repos/procura-continuous-deployment/target/procura/engine/lib/widgets.php:82
+PHP  11. create_object_entity() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggObject.php:152
+PHP  12. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/objects.php:66
+PHP  13. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  14. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  15. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  16. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  17. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  18. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->createAdminAccount() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:201
+PHP   4. ElggUser->makeAdmin() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1542
+PHP   5. make_user_admin() /data/repos/procura-continuous-deployment/target/procura/engine/classes/ElggUser.php:233
+PHP   6. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/users.php:226
+PHP   7. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   8. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   9. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP  10. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  12. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->createAdminAccount() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:201
+PHP   4. create_metadata() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1550
+PHP   5. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metadata.php:136
+PHP   6. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   7. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+PHP Notice:  Undefined index: REMOTE_ADDR in /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php on line 187
+PHP Stack trace:
+PHP   1. {main}() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:0
+PHP   2. ElggInstaller->batchInstall() /data/repos/procura-continuous-deployment/target/procura/install/cli/pollux_installer.php:50
+PHP   3. ElggInstaller->createAdminAccount() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:201
+PHP   4. create_metadata() /data/repos/procura-continuous-deployment/target/procura/install/ElggInstaller.php:1551
+PHP   5. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/metadata.php:136
+PHP   6. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   7. system_log_listener() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP   8. elgg_trigger_event() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:289
+PHP   9. call_user_func_array() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  10. system_log_default_logger() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:773
+PHP  11. system_log() /data/repos/procura-continuous-deployment/target/procura/engine/lib/system_log.php:271
+Procur@ CLI install successful. wwwroot: http://:
+PHP Notice:  Undefined index: REQUEST_URI in /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php on line 1755
+PHP Stack trace:
+PHP   1. _elgg_shutdown_hook() /data/repos/procura-continuous-deployment/target/procura/engine/lib/elgglib.php:0

@@ -32,5 +32,5 @@ $vars = array ('menu'=>$vars);
 
 // Pintar los menús
 $body = elgg_view ("custom_index/main_menu", $vars);
-$body .= $weather;
+//$body .= $weather;
 echo elgg_view_page('', $body);
